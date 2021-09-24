@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Bikes</title>
+    <link rel="stylesheet" href="./scc/css-reset.css">
+    <link rel="stylesheet" href="./scc/style.css">
+    <script src="https://kit.fontawesome.com/b0f046d9a1.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./icons/logo-roar-bikes.svg" alt="">
+                </a>
+            </div>
+            
+            <nav>
+                <div class="navbuttons">
+                    <a href="#">Book Online</a>
+                    <div class="newbox">
+                        <div class="dropdown">
+                            <div class="navbuttons">
+                                <a href="#">Onside Service</a>
+                            </div>
+
+                            <div class="navbuttons">
+                                <a href="#">Parts Delivery</a>
+                            </div>
+
+                            <div class="navbuttons">
+                                <a href="#"> Request CallBack</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navbuttons">
+                    <a href="#">About</a>
+                </div>
+
+                <div class="navbuttons">
+                    <a href="#">Contact</a>
+
+                </div>
+            </nav>
+        </header>
+
+        <div class="main">
+             <h1>Contact us</h1>
+        
+           <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you</p>
+       
+           <form action="mail.php" method="post">
+
+            <div class="inputwrapper">
+                <label for="name" class="newline">First Name</label>
+                <input type="text" name="name" name="name" placeholder="First Name">
+            </div>
+            <div class="inputwrapper">
+                <label for="name" class="newline">Last Name</label>
+                <input type="text" name="name" name="name" placeholder="Last Name">
+            </div>
+            <div class="inputwrapper">
+                <label for="email" class="newline">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="google@gmail..com">
+            </div>
+            <div class="inputwrapper">
+                <textarea name="message" id="message" cols="100" rows="5" placeholder="Let us what you think"> </textarea>
+            </div>
+            <div class="inputwrapper">
+                <input type="checkbox" name="emailsub" value="yes sign-me-up">
+                <label for="emailsub">Sign Up For Newsletter</label>
+            </div>
+            <div class="inputwrapper">
+                <p>How would you like to be contacted?</p>
+                <input type="radio" name="contact-pref" id="phone">
+                <label for="hone" class="margin-right-a">Phone</label>
+
+                <input type="radio" name="contact-pref" id="email2" value="Email">
+                <label for="email2">E-Mail</label> 
+
+            </div>
+            <div class="inputwrapper">
+                <select name="country" id="country">
+                    <option value="Not-Chosen">Chose Country</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Mexico">Mexico</option>
+                </select>
+            </div>
+            <input type="submit" value="Fine Away" class="my-button">
+           </form>
+        </div>
+
+        <div class="cards"></div>
+    </div>
+</body>
+</html>

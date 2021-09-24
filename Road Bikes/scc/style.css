@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/*
+font-familyfont-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+html {
+    background-image: linear-gradient(to right, #fc5e55, #fa4083);
+}
+
+body {
+    background-image: url(../icons/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', 'serif';
+    color: white;
+    font-size: 1.125rem;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.navbuttons {
+    border: 1px solid white;
+    padding: 11px 25px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    display: none;
+    z-index: 1;
+    color: #fa4083;
+    padding-top: 20px;
+    margin-left: -25px;
+    position: absolute;
+}
+
+.navbuttons:hover .dropdown {
+    display: block;
+}
+
+.dropdown > .navbuttons {
+    background-color: #fff;
+}
+
+.dropdown > .navbuttons:hover {
+    background-color: #000;
+    transition-duration: 0.7s;
+}
+
+.dropdown > .navbuttons > a {
+    color: #fa4083;
+}
+
+main {
+    display: flex;
+    padding-top: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.mainbox1 {
+    box-sizing: border-box;
+    flex: 2;
+    padding-right: 80px;
+}
+
+.mainbox2 {
+    flex: 1;
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Lora', serif;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.23);
+    margin: 20px;
+}
+
+.mainbox1 > p {
+    padding-top: 20px;
+}
+
+.my-button {
+    border: 1px solid white;
+    padding: 11px 25px;
+    background-color: white;
+    color: #fa4083;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.my-button:hover {
+    background-color: rgb(23, 229, 103);
+    transition-duration: 0.7s;
+}
+.inputwrapper{
+    margin : 20px;
+    
+}
+
+input[type=text], input[email],textarea {
+padding: 12px 20px;
+width: 100%;
+font-size: 0.85rem;
+
+}
+.newlime {
+    display: block;
+    margin-bottom: 10px;
+}
+.margin-righr-a {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+input [type=radio] {
+    margin-right: 10px;
+     font-size: 20px;
+}
